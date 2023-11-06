@@ -1,18 +1,12 @@
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +17,9 @@ public class MainActivity extends AppCompatActivity {
      */
     String[] arrString = {
             "계산기",
-            "ex02"
+            "ex02",
+            "ex03",
+            "ex04"
     };
 
     /**
@@ -127,8 +123,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), calculator.class);
         startActivity(intent);
     }
+
     public void onClickMove2(View view) {
         Intent intent = new Intent(getApplicationContext(), Ex02.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove3(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex03.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove4(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex04.class);
         startActivity(intent);
     }
 

@@ -56,7 +56,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
             android:backgroundTint="#CDCDCD"
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove3"
             android:text="ex03" />
 
         <Button
@@ -66,7 +66,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
             android:backgroundTint="#CDCDCD"
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove4"
             android:text="ex04" />
 
 
