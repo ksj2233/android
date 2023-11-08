@@ -86,7 +86,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
             android:backgroundTint="#CDCDCD"
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove5"
             android:text="ex05" />
 
         <Button
@@ -96,7 +96,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
             android:backgroundTint="#CDCDCD"
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove6"
             android:text="ex06" />
 
         <Button
@@ -106,7 +106,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
             android:backgroundTint="#CDCDCD"
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove7"
             android:text="ex07" />
 
         <Button
@@ -116,7 +116,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
             android:backgroundTint="#CDCDCD"
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove8"
             android:text="ex08" />
 
 
@@ -136,7 +136,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
             android:backgroundTint="#CDCDCD"
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove9"
             android:text="ex09" />
 
         <Button

@@ -19,7 +19,12 @@ public class MainActivity extends AppCompatActivity {
             "계산기",
             "ex02",
             "ex03",
-            "ex04"
+            "ex04",
+            "ex05",
+            "ex06",
+            "ex07",
+            "ex08",
+            "ex09"
     };
 
     /**
@@ -136,6 +141,31 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickMove4(View view) {
         Intent intent = new Intent(getApplicationContext(), Ex04.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove5(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex05.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove6(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex06.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove7(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex07.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove8(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex08.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove9(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex09.class);
         startActivity(intent);
     }
 
