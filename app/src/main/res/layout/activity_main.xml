@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,9 +15,9 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="메인 화면입니다."
             android:gravity="center_vertical|center_horizontal"
-            android:textSize="40dp"/>
+            android:text="메인 화면입니다."
+            android:textSize="40dp" />
 
     </LinearLayout>
 
@@ -29,7 +28,7 @@
         android:orientation="horizontal"
         android:weightSum="100">
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_1_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -39,33 +38,33 @@
             android:onClick="onClickMove1"
             android:text="계산기" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_2_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove2"
             android:text="ex02" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_3_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove3"
             android:text="ex03" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_4_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove4"
             android:text="ex04" />
 
@@ -79,43 +78,43 @@
         android:orientation="horizontal"
         android:weightSum="100">
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_5_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove5"
             android:text="ex05" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_6_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove6"
             android:text="ex06" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_7_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove7"
             android:text="ex07" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_8_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove8"
             android:text="ex08" />
 
@@ -129,43 +128,43 @@
         android:orientation="horizontal"
         android:weightSum="100">
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_9_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove9"
             android:text="ex09" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_10_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
-            android:onClick="onClickMove2"
+
+            android:onClick="onClickMove10"
             android:text="ex10" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_11_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove2"
             android:text="ex11" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_12_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove2"
             android:text="ex12" />
 
@@ -179,43 +178,43 @@
         android:orientation="horizontal"
         android:weightSum="100">
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_13_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove2"
             android:text="ex13" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_14_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove2"
             android:text="ex14" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_15_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove2"
             android:text="ex15" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/exercise_16_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="25"
-            android:backgroundTint="#CDCDCD"
+
             android:onClick="onClickMove2"
             android:text="ex16" />
 

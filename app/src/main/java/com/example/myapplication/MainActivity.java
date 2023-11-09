@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
             "ex06",
             "ex07",
             "ex08",
-            "ex09"
+            "ex09",
+            "ex10"
     };
 
     /**
@@ -63,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
                 btn1.setBackgroundColor(0xFF4CAF50);
             } else if (str.equals(btn2.getText().toString())) {
                 btn2.setBackgroundColor(0xFF4CAF50);
-
             } else if (str.equals(btn3.getText().toString())) {
                 btn3.setBackgroundColor(0xFF4CAF50);
             } else if (str.equals(btn4.getText().toString())) {
@@ -166,6 +167,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickMove9(View view) {
         Intent intent = new Intent(getApplicationContext(), Ex09.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove10(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex10.class);
         startActivity(intent);
     }
 
