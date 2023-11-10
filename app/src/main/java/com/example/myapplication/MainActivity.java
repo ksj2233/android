@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
             "ex07",
             "ex08",
             "ex09",
-            "ex10"
+            "ex10",
+            "ex11"
     };
 
     /**
@@ -172,6 +172,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickMove10(View view) {
         Intent intent = new Intent(getApplicationContext(), Ex10.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove11(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex11.class);
         startActivity(intent);
     }
 
