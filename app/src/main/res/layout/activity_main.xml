@@ -165,7 +165,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
 
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove12"
             android:text="ex12" />
 
 
