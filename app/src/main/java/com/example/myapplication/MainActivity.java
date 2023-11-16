@@ -27,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
             "ex09",
             "ex10",
             "ex11",
-            "ex12"
+            "ex12",
+            "ex13",
+            "ex14"
     };
 
     /**
@@ -183,6 +185,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickMove12(View view) {
         Intent intent = new Intent(getApplicationContext(), Ex12.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove13(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex13.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove14(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex14.class);
         startActivity(intent);
     }
 

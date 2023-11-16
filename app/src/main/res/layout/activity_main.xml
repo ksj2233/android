@@ -185,7 +185,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
 
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove13"
             android:text="ex13" />
 
         <android.widget.Button
@@ -195,7 +195,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
 
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove14"
             android:text="ex14" />
 
         <android.widget.Button
