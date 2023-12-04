@@ -29,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
             "ex11",
             "ex12",
             "ex13",
-            "ex14"
+            "ex14",
+            "ex15",
+            "ex16",
+            "ex17",
+            "ex18"
     };
 
     /**
@@ -62,6 +66,10 @@ public class MainActivity extends AppCompatActivity {
         Button btn14 = findViewById(R.id.exercise_14_btn);
         Button btn15 = findViewById(R.id.exercise_15_btn);
         Button btn16 = findViewById(R.id.exercise_16_btn);
+        Button btn17 = findViewById(R.id.exercise_17_btn);
+        Button btn18 = findViewById(R.id.exercise_18_btn);
+        Button btn19 = findViewById(R.id.exercise_19_btn);
+        Button btn20 = findViewById(R.id.exercise_20_btn);
 
         for (String str : arrString) {
             if (str.equals(btn1.getText().toString())) {
@@ -96,6 +104,14 @@ public class MainActivity extends AppCompatActivity {
                 btn15.setBackgroundColor(0xFF4CAF50);
             } else if (str.equals(btn16.getText().toString())) {
                 btn16.setBackgroundColor(0xFF4CAF50);
+            }else if (str.equals(btn17.getText().toString())) {
+                btn17.setBackgroundColor(0xFF4CAF50);
+            }else if (str.equals(btn18.getText().toString())) {
+                btn18.setBackgroundColor(0xFF4CAF50);
+            }else if (str.equals(btn19.getText().toString())) {
+                btn19.setBackgroundColor(0xFF4CAF50);
+            }else if (str.equals(btn20.getText().toString())) {
+                btn20.setBackgroundColor(0xFF4CAF50);
             }
         }
     }
@@ -195,6 +211,36 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickMove14(View view) {
         Intent intent = new Intent(getApplicationContext(), Ex14.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove15(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex15.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove16(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex16.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove17(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex17.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove18(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex18.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove19(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex16.class);
+        startActivity(intent);
+    }
+
+    public void onClickMove20(View view) {
+        Intent intent = new Intent(getApplicationContext(), Ex16.class);
         startActivity(intent);
     }
 

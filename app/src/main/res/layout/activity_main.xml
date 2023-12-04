@@ -205,7 +205,7 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
 
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove15"
             android:text="ex15" />
 
         <android.widget.Button
@@ -215,8 +215,58 @@
             android:layout_margin="5dp"
             android:layout_weight="25"
 
-            android:onClick="onClickMove2"
+            android:onClick="onClickMove16"
             android:text="ex16" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <android.widget.Button
+            android:id="@+id/exercise_17_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="25"
+
+            android:onClick="onClickMove17"
+            android:text="ex17" />
+
+        <android.widget.Button
+            android:id="@+id/exercise_18_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="25"
+
+            android:onClick="onClickMove18"
+            android:text="ex18" />
+
+        <android.widget.Button
+            android:id="@+id/exercise_19_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="25"
+
+            android:onClick="onClickMove19"
+            android:text="ex19" />
+
+        <android.widget.Button
+            android:id="@+id/exercise_20_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="25"
+
+            android:onClick="onClickMove20"
+            android:text="ex20" />
 
 
     </LinearLayout>

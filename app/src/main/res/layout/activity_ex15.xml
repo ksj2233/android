@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ex15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|right"
+                android:text="이미지" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout회사명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:text="회사명" />
+
+            <EditText
+                android:id="@+id/edt회사명"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_rounded_corner_rectangle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout아이디"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:text="아이디" />
+
+            <EditText
+                android:id="@+id/edt아이디"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_rounded_corner_rectangle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout비밀번호"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:text="비밀번호" />
+
+            <EditText
+                android:id="@+id/edt비밀번호"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_rounded_corner_rectangle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout로그인버튼"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2196F3"
+                android:text="로그인"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="회원가입"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="11dp"
+                    android:background="@color/black">
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="아이디 찾기"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="11dp"
+                    android:background="@color/black">
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="비밀번호 변경"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layoutBottom"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageLogo"
+                    android:src="@drawable/back_gbyou_logo"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="50dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기기번호"
+                    android:textSize="11dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="[*****************]"
+                    android:textSize="11dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
